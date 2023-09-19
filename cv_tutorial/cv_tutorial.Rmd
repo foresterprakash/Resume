@@ -1,0 +1,214 @@
+---
+name: Prakash 
+surname: Lamichhane
+position: "Research Officer"
+profilepic: "unnamed"
+pronouns: He/His
+address: "Forest Research and Training Center"
+phone: +977-9845228896
+www: frtc.gov.np
+email: "forester.prakash@gmail.com"
+linkedin: prakash-lamichhane-19584a164/
+date: "`r format(Sys.time(), '%B %Y')`"
+output:
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# About me
+
+-   I am deeply committed to the research areas around cause of environmental conservation and the sustainable management of our forests.
+-   Strong presentation and writing skills, along with proficiency in data science.
+-   Capable to excel in complex and dynamic research environments.
+-   Awarded by prestigious DAAD Scholarship for Masters Degree in Germany.
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Master of Science in Landscape Ecology and Nature Conservation", "2017-2019", "University of Greifswald", "Greifswald, Germany",
+  "B.Sc. Forestry", "2013", "Tribhuwan University", "IOF, Hetauda, Nepal",
+  "I.Sc. Forestry", "2009", "Tribhuwan University", "IOF, Hetauda, Nepal"
+) %>%
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Work Experiance
+
+## 1. **Student Tutor, Forest Research and Training Center, 2019**
+
+***Major Responsibilities***
+
+Under Forest Inventory and Carbon Mapping Section in my Organization I have engaged in following tasks:
+
+-   Design and conduct the forest resource inventory in Permanent Sample Plots throughout the country
+-   Data analysis and reporting
+-   Calculation of emission factor for REDD+ program.
+-   Collection of both qualitative and quantitative information using local resource persons
+
+***Project highlights***
+
+-   Forest Resource Assessment and reporting for all physiographic zones of Nepal.
+-   Completed Bamboo Resource assessment outside forest area of Nepal.
+-   Emission Reduction report (MRV)
+
+## 2. **Research officer, Forest Research and Training Center, 2015 to Current**
+
+***Major Responsibilities***
+
+Under Forest Inventory and Carbon Mapping Section in my Organization I have engaged in following tasks:
+
+-   Design and conduct the forest resource inventory in Permanent Sample Plots throughout the country
+-   Data analysis and reporting
+-   Calculation of emission factor for REDD+ program.
+-   Collection of both qualitative and quantitative information using local resource persons
+
+***Project highlights***
+
+-   Forest Resource Assessment and reporting for all physiographic zones of Nepal.
+-   Completed Bamboo Resource assessment outside forest area of Nepal.
+-   Emission Reduction report (MRV)
+
+## 3. **Forest Ranger, Department of Forest and Soil Conservation, 2013 to 2015**
+
+***Major Responsibilities***
+
+Working at Divisional Forest Office, Baitadi, (remotely located area), I was responsible in following tasks:
+
+-   Assisting community forest user groups in developing and implementing forest management plans.
+-   Implementing national policy and legislation in order to fulfill the demand and supply of forest products.
+-   Preparing livelihood plans for leasehold forestry program designed for people under poverty line.
+-   Conducting several social surveys for collection quantitative and qualitative information on effect of overall forest management activities.
+
+***Project highlights***
+
+-   Governance and situation analysis of a agriculture cooperatives using spiderweb tool and SWOT analysis method in Baitadi district.
+
+# Skills and Strengths
+
+-   Basic Office Package (MS-Word, MS-Excel, POWERPOINT, MS-POWERBI)
+-   GIS Tools (QGIS, ARCGIS, Google Earth Engine etc.)
+-   Extensive expertise in ecological modeling, including a track record of successfully supervising interns in this field.
+-   A robust foundation in data science, underpinned by the completion of 135 hours of professional training in Data Science with Python.
+-   Proficiency in R-programming, demonstrated through practical experience as a data analyst at the Forest Research and Training Center.
+-   Exceptional written and presentation skills in English, as evidenced by the successful presentation of research work at various international workshops. -Adaptable and capable of thriving in diverse working environments, with a proven ability to excel in both remote and urban settings.
+- Good foundation on writing reports in markdown (both in Python and R programming using LATEX)
+
+# Major Trainings
+
+## DATA SCIENCE WITH PYTHON
+
+Dated from 12th May to 13th August 2023 by Broadways Infosys
+
+## ON THE JOB TRAINING ON FOREST CARBON STOCK MEASUREMENT USING EARTH OBSERVATION DATA
+
+Dated from 10th October 2022 to 11th November 2022 Organised by A International Center For Integrated Mountain Development (ICIMOD) SERVIR-HKH initiative
+
+## DEVELOPMENT OF NATIONAL LAND COVER MONITORING SYSTEM FOR NEPAL
+
+Dated from 22nd August 2022 to 26th August 2022 by International Center For Integrated Mountain Development (ICIMOD) SERVIR-HKH initiative
+
+## TRAINING ON UNBIASED AREA ESTIMATION AND UNCERTAINTY ESTIMATION FOR FOREST
+
+Dated from 23rd May 2022 to 27th May 2022 by USAID, SilVACarbon DEGRADATION IN NEPAL
+
+**(In addition to that I have conducted a successful training on data science with python and active in R-programming as a Trainer)**
+
+# Workshop and Seminar
+
+- Cross Country knowledge Exchange on REDD plus program in Cambodia dated from 12/06/2022 to 19/06/2022 Phnom Penn, Siem Reip and Koh Kong province of Cambodia (ORAL PRESENTATION)
+
+- South-South Knowledge Exchange on Measurement, Monitoring, Reporting and Verification systems, FCPF CF ERPA Implementation and Carbon Markets dated from 12/12/2022 to 18/12/2022 in Maputo,Mozambique (Presenter)
+
+\newpage
+
+# Research Experiance
+
+- Preparation of National Landcover monitoring System (NLCMS) using RandomForestClassifier.
+
+- FRTC,2020, A study of Opportunities and Constraints for Development of Private forestry Model in Mid Hill Region of Nepal (A case study from Kavre and Kaski district of Nepal), Forest Research and Training Centre (FRTC), Babarmahal, Kathmandu, Nepal https://frtc.gov.np/uploads/files/Private%20forest%20Model(1).pdf**(Unpublished)**
+
+- Preparation of Regional and National Forest Resource assessment(Involvement in field data collection, data analysis and report writing)
+
+# Publications
+
+```{r}
+bibliography_entries("My Publication.bib")
+```
+
+
+```{r}
+#5. FRTC,2020, A study of Opportunities and Constraints for Development of Private forestry Model in Mid Hill Region of Nepal (A case study from Kavre and Kaski district of Nepal), Forest Research and Training Centre (FRTC), Babarmahal, Kathmandu, Nepal https://frtc.gov.np/uploads/files/Private%20forest%20Model(1).pdf
+#**(Unpublished)**
+```
+
+# References
+```{r}
+tribble(
+  ~ Name,
+  ~ Title,
+  ~ Contact,
+  'Dr. Tiemo Timmermann',
+  "Sustainability Officer;Institute of Botany and Landscape Ecology, 
+  D-17487 Geifswald, Germany,
+  University of Geifswald, Germany",
+  "tiemo@uni-greifswald.de; +49[0]03834420412",
+  'Shiva Khanal, Ph.D',
+  "Under-Secretary; Ministry of Forests and Environment,Nepal (Climate Change and Management Division);",
+  "khanalshiva1@gmail.com; +977-9841492155",
+  'Rajendra KC,Ph.D',
+   "Joint-Scretary; Ministry of Forests and Environment,Nepal",
+  "rkc.gen@gmail.com ; +977-9851149420"
+  
+) %>%
+  detailed_entries(where = Contact,
+                   with = Name,
+                   what = Title)
+```
+
+```{r eval=FALSE, include=FALSE}
+# References
+
+\vspace{0.5cm}
+
+## Dr. Tiemo Timmermann (Sustainability Officer)
+
+## Institute of Botany and Landscape Ecology
+
+## Soldmannstraße 15
+
+## D-17487 Greifswald, Germany
+
+## Email [tiemo\@uni-greifswald.de](mailto:tiemo@uni-greifswald.de){.email} 
+## Phone (+49) 038344204112
+
+\vspace{0.5cm}
+
+## Shiva Khanal, PhD Under Secretary (Tech.)
+
+## Climate Change Management Division (CCMD)
+
+## Ministry of Forests and Environment, Kathmandu, Nepal
+
+[Google Scholar](https://scholar.google.com/citations?user=kCTDo4sAAAAJ&hl=en)
+
+## PHD form Australia
+
+## Email [khanalshiva1\@gmail.com](mailto:khanalshiva1@gmail.com){.email} 
+## Phone (+977) 9841492155
+
+\vspace{0.5cm}
+## Rajendra K.C. PhD (Joint Secretary)
+## Ministry of Forest and Environment, Kathmandu
+## Phone number: (+977) 9851149420
+## Email: rkc.gen@gmail.com
+[Research Gate](https://www.researchgate.net/profile/Rajendra-Kc)
+```
+
