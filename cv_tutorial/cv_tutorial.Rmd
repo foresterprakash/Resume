@@ -8,7 +8,9 @@ address: "Forest Research and Training Center"
 phone: +977-9845228896
 www: frtc.gov.np
 email: "forester.prakash@gmail.com"
-linkedin: prakash-lamichhane-19584a164/
+linkedin: prakash-lamichhane-19584a164
+orcid: 0000-0002-0355-0222
+github: foresterprakash
 date: "`r format(Sys.time(), '%B %Y')`"
 output:
   vitae::awesomecv:
@@ -119,7 +121,7 @@ Dated from 22nd August 2022 to 26th August 2022 by International Center For Inte
 
 Dated from 23rd May 2022 to 27th May 2022 by USAID, SilVACarbon DEGRADATION IN NEPAL
 
-**(In addition to that I have conducted a successful training on data science with python and active in R-programming as a Trainer)**
+**(In addition to that I have conducted a successful training on data science with python, MS-Excel, and active in R-programming as a Trainer)**
 
 # Workshop and Seminar
 
@@ -135,7 +137,9 @@ Dated from 23rd May 2022 to 27th May 2022 by USAID, SilVACarbon DEGRADATION IN N
 
 - FRTC,2020, A study of Opportunities and Constraints for Development of Private forestry Model in Mid Hill Region of Nepal (A case study from Kavre and Kaski district of Nepal), Forest Research and Training Centre (FRTC), Babarmahal, Kathmandu, Nepal https://frtc.gov.np/uploads/files/Private%20forest%20Model(1).pdf**(Unpublished)**
 
-- Preparation of Regional and National Forest Resource assessment(Involvement in field data collection, data analysis and report writing)
+- Preparation of Regional and National Forest Resource assessment(Involvement in field data collection, data analysis and report writing).
+
+- Involvement in generating activity data and emission factors for national emission reduction report for MRV purpose in cordination with FCPF and Worldbank.
 
 # Publications
 
@@ -145,8 +149,8 @@ bibliography_entries("My Publication.bib")
 
 
 ```{r}
-#5. FRTC,2020, A study of Opportunities and Constraints for Development of Private forestry Model in Mid Hill Region of Nepal (A case study from Kavre and Kaski district of Nepal), Forest Research and Training Centre (FRTC), Babarmahal, Kathmandu, Nepal https://frtc.gov.np/uploads/files/Private%20forest%20Model(1).pdf
-#**(Unpublished)**
+# 5. FRTC,2020, A study of Opportunities and Constraints for Development of Private forestry Model in Mid Hill Region of Nepal (A case study from Kavre and Kaski district of Nepal), Forest Research and Training Centre (FRTC), Babarmahal, Kathmandu, Nepal https://frtc.gov.np/uploads/files/Private%20forest%20Model(1).pdf
+# **(Unpublished)**
 ```
 
 # References
